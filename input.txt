@@ -1,0 +1,26 @@
+
+    var x : int;
+    var y : int;
+    const z := 10;
+    x := 5;
+        y := x + z;
+
+ if (x < y) then
+        z := x + 1;
+    fi
+
+
+    for i := 1 to 5 do
+        y := y * 2;
+    od
+
+        var a : int;
+        a := x + y;
+        if a > 50 then
+            a := a - 50;
+        else
+            a := a + 50;
+        fi
+       a:= a+1;
+
+        2*x - 1;
